@@ -1,14 +1,23 @@
 * {
   font-family: "Figtree", "Verdana";
+  margin: 0;
+}
+
+body {
+  margin-bottom: 40px;
 }
 
 .main-title {
   text-align: center;
+  background-color: #0b192c;
+  color: white;
+  margin-bottom: 20px;
 }
 
 ul li a {
   text-decoration: none;
   color: black;
+  border: 1px solid #1e3e62;
   transition: all;
   transition-duration: 0.2s;
 }
@@ -17,3 +26,107 @@ ul li a:hover {
   text-decoration: underline;
   color: orangered;
 }
+
+/* recipe page styling start */
+
+.recipe-title {
+  text-align: center;
+  background-color: #ff6500;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  padding: 12px 4px;
+  color: white;
+}
+
+.recipe-image {
+  width: 80vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.recipe-description {
+  margin-top: 20px;
+  padding: 16px 20px;
+  background-color: #1e3e62;
+  color: white;
+}
+/* ingredients section start */
+
+.ingredients-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ingredient-list {
+  margin-top: 12px;
+}
+
+/* ingredients section end */
+
+/* steps section start */
+
+.steps-title {
+  margin-top: 30px;
+  margin-left: 8px;
+}
+
+.steps-list {
+  margin-top: 16px;
+}
+
+.steps-list li {
+  margin-bottom: 8px;
+}
+
+/* steps section end */
+
+/* nutrition section start */
+
+.nutrition-title {
+  margin-left: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nutrition-list {
+  background-color: #0b192c;
+  padding: 16px 30px;
+  margin-top: 12px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  width: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nutrition-list li {
+  color: white;
+}
+
+/* nutrition section end */
+
+.back-to-main {
+  text-align: center;
+}
+
+.back-to-main-button {
+  padding: 16px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.back-to-main-button:hover {
+  background-color: #000000c2;
+}
+
+.back-to-main-button:active {
+  background-color: #161616;
+}
+
+/* recipe page styling end */
